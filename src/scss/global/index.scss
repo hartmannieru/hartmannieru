@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, .h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 87px;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: calc(1280px + (15px * 2));
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
