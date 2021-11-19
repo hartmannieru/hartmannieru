@@ -1,0 +1,33 @@
+.technology {
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  &__item {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    @media (max-width: 576px) {
+      width: 50px;
+      height: 50px;
+      
+    }
+  }
+}
