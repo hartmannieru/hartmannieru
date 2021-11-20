@@ -4,7 +4,7 @@
   [x] normalize.css
   [x] react-router-dom
 [x] Настроить роутинг
-[] Сделать вёрстку компонента Header
+[x] Сделать вёрстку компонента Header
 [] Сделать вёрстку страницы Home (Desktop)
 [] Сделать вёрстку страницы Home (Mobile)
 [] Сделать вёрстку страницы Portfolio (Desktop)

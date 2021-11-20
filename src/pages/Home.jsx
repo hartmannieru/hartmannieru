@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useContext} from 'react';
+import { CustomContext } from '../utils/Context';
+
 import { html, css, js, react, node } from '../images/';
 import hand from '../images/hand.png';
-import bg from '../images/coffee.svg';
+import CoffeeLight from '../images/coffee-light.svg';
+import CoffeeDark from '../images/coffee-dark.svg';
 
 export const Home = () => {
+  const { mode } = useContext(CustomContext);
+
   return (
     <main className="home">
       <div className="container">
@@ -38,7 +43,7 @@ export const Home = () => {
         
         </section>
         <div className="home__bg">
-          <img src={bg} alt={bg} />
+          <img src={mode === 'light' ? CoffeeLight : CoffeeDark} alt={'coffee'} />
         </div>
       </div>
     </main>

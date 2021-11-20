@@ -1,3 +1,20 @@
+body[data-mode='light'] {
+  --colors-bg: #ffffff;
+  --colors-text: #000000;
+  --bg-coffee: url('../../images/coffee-light.svg');
+}
+
+body[data-mode='dark'] {
+  --colors-bg: #000000;
+  --colors-text: #ffffff;
+  --bg-coffee: url('../../images/coffee-dark.svg');
+}
+
+body {
+  color: var(--colors-text);
+  background-color: var(--colors-bg);
+}
+
 .mode {
   cursor: pointer;
 }

@@ -12,6 +12,10 @@
     img {
       max-width: 100%;
     }
+
+    @media (max-width: 576px) {
+      display: none;
+    }
   }
 
   @media (max-width: 576px) {
