@@ -4,7 +4,7 @@ import Scrollbar from 'react-scrollbars-custom';
 import { Header } from './components/Header/';
 import { Home } from './pages/Home'
 import { NotFound } from './pages/NotFound ';
-import { Portfolio } from './pages/Portfolio';
+import { Portfolio } from './pages/Portfolio/Portfolio';
 import { Context } from './utils/Context';
 
 function App() {

@@ -1,10 +1,11 @@
+import { Container } from "../Container"
 import { Logotype } from "../Logotype"
 import { Mode } from "../Mode"
 
 export const Header = () => {
   return (
     <header className="header">
-      <div className="container">
+      <Container>
         <div className="header__wrapper">
           <div className="header__logo">
             <Logotype />
@@ -13,7 +14,7 @@ export const Header = () => {
             <Mode />
           </div>
         </div>
-      </div>
+      </Container>
     </header>
   )
 }
