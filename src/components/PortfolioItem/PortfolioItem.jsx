@@ -5,7 +5,7 @@ export const PortfolioItem = ({img, title, subtitle, description, technologies})
   return (
     <div className={classes.portfolioItem}>
       <div className={classes.portfolioItemImg}>
-        <img src={portfolioImg} alt={'portfolio-img'} />
+        <img src={img} alt={'portfolio-img'} />
       </div>
       <div className={classes.portfolioItemContent}>
         <h4><span>{title}</span>{subtitle}</h4>

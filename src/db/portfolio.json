@@ -8,14 +8,28 @@
     "technologies": ["HTML", "CSS", "JS", "React"]
   }, {
     "id": "2",
-    "img": "./images/portfolio-img.png",
+    "img": "./images/portfolio-img-2.png",
     "title": "REST Countries API 2 ",
     "subtitle": "with color theme switcher 2",
     "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
     "technologies": ["HTML"]
   }, {
     "id": "3",
-    "img": "./images/portfolio-img.png",
+    "img": "./images/portfolio-img-3.png",
+    "title": "REST Countries API 2 ",
+    "subtitle": "with color theme switcher 2",
+    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
+    "technologies": ["HTML"]
+  }, {
+    "id": "4",
+    "img": "./images/portfolio-img-4.png",
+    "title": "REST Countries API 2 ",
+    "subtitle": "with color theme switcher 2",
+    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
+    "technologies": ["HTML"]
+  }, {
+    "id": "5",
+    "img": "./images/portfolio-img-5.png",
     "title": "REST Countries API 2 ",
     "subtitle": "with color theme switcher 2",
     "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",

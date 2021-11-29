@@ -5,6 +5,11 @@
   &__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__bg {
@@ -16,7 +21,7 @@
       max-width: 100%;
     }
 
-    @media (max-width: 576px) {
+    @media (max-width: 992px) {
       display: none;
     }
   }

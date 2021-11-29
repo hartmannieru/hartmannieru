@@ -1,7 +1,7 @@
 .portfolioList {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 40px;
 
   @media (max-width: 992px) {
     grid-template-columns: repeat(2, 1fr);

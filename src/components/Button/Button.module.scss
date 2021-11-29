@@ -17,6 +17,8 @@
   width: 100%;
   cursor: pointer;
   transition: background 200ms ease-in;
+  text-decoration: none;
+  margin-bottom: 80px;
 
   &:hover {
     background: rgba(255,190,13,0.5);
