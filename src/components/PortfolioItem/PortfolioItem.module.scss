@@ -2,9 +2,20 @@
   position: relative;
   max-width: 400px;
   width: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   border-radius: 10px;
   overflow: hidden;
+
+  a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    background: transparent;
+    font-size: 0;
+  }
 
   &::after {
     position: absolute;
@@ -17,11 +28,20 @@
     background: #FFBE0D;
   }
 
+  @media (max-width: 576px) {
+    max-width: 100%;
+  }
+}
+
+.portfolioItem {
   img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
   }
+}
+
+.portfolioItemContent {
+  padding: 20px;
 
   h4 {
     font-weight: 800;
@@ -42,7 +62,11 @@
     font-size: 14px;
     line-height: 19px;
     text-transform: capitalize;
-
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: #9F9F9F;
     margin-bottom: 20px;
   }

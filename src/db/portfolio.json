@@ -1,15 +1,24 @@
 [
   {
+    "id": "1",
     "img": "./images/portfolio-img.png",
     "title": "REST Countries API",
     "subtitle": "with color theme switcher",
     "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API.",
-    "technology": ["HTML", "CSS", "JS", "React"]
+    "technologies": ["HTML", "CSS", "JS", "React"]
   }, {
+    "id": "2",
     "img": "./images/portfolio-img.png",
     "title": "REST Countries API 2 ",
     "subtitle": "with color theme switcher 2",
     "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
-    "technology": ["HTML"]
+    "technologies": ["HTML"]
+  }, {
+    "id": "3",
+    "img": "./images/portfolio-img.png",
+    "title": "REST Countries API 2 ",
+    "subtitle": "with color theme switcher 2",
+    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
+    "technologies": ["HTML"]
   }
 ]

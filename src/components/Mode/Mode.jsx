@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { CustomContext } from '../../utils/Context';
 import Moon from './images/icon-moon.svg';
 import Sun from './images/icon-sun.svg';

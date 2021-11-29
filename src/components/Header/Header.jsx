@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Container } from "../Container"
 import { Logotype } from "../Logotype"
 import { Mode } from "../Mode"
@@ -7,9 +8,9 @@ export const Header = () => {
     <header className="header">
       <Container>
         <div className="header__wrapper">
-          <div className="header__logo">
+          <Link className="header__logo" to="/">
             <Logotype />
-          </div>
+          </Link>
           <div className="header__mode">
             <Mode />
           </div>

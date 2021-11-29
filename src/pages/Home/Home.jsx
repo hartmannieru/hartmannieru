@@ -1,19 +1,20 @@
 import React, { useContext} from 'react';
-import { CustomContext } from '../utils/Context';
+import { CustomContext } from '../../utils/Context';
 
-import { html, css, js, react, node } from '../images/';
-import hand from '../images/hand.png';
-import CoffeeLight from '../images/coffee-light.svg';
-import CoffeeDark from '../images/coffee-dark.svg';
-import PreviewPortfolio from '../images/preview-portfolio.png';
-import { Button } from '../components/Button';
+import { html, css, js, react, node } from '../../images';
+import hand from '../../images/hand.png';
+import CoffeeLight from '../../images/coffee-light.svg';
+import CoffeeDark from '../../images/coffee-dark.svg';
+import PreviewPortfolio from '../../images/preview-portfolio.png';
+import { Button } from '../../components/Button';
+import { Container } from '../../components/Container';
 
 export const Home = () => {
   const { mode } = useContext(CustomContext);
 
   return (
     <main className="home">
-      <div className="container">
+      <Container>
         <div className='home__container'>
           <section className="home__about about">
             <h2 className="about__title about-title">
@@ -52,7 +53,7 @@ export const Home = () => {
             <img src={mode === 'light' ? CoffeeLight : CoffeeDark} alt={'coffee'} />
           </div>
         </div>
-      </div>
+      </Container>
     </main>
   )
 }

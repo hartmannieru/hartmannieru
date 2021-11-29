@@ -1,2 +1,1 @@
-import { Mode } from './Mode';
-export { Mode }
+export { Mode } from './Mode';

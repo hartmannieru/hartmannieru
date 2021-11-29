@@ -1,14 +1,14 @@
 import React from 'react';
 import { Container } from '../../components/Container';
-import { PortfolioItem } from '../../components/PortfolioItem';
+import { PortfolioList } from '../../components/PortfolioList/PortfolioList';
 import classes from './Portfolio.module.scss';
 
 export const Portfolio = () => {
   return (
-    <div className={classes.portfolio}>
+    <main className={classes.portfolio}>
       <Container>
-        <PortfolioItem />
+        <PortfolioList />
       </Container>
-    </div>
+    </main>
   )
 }
