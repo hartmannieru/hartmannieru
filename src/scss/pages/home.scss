@@ -1,8 +1,11 @@
 .home {
   position: relative;
   padding-top: 105px;
-  min-height: 800px;
-  height: calc(100vh - 71px);
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   &__bg {
     position: absolute;
