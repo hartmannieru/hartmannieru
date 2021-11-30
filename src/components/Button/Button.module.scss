@@ -1,0 +1,27 @@
+.btn {
+  background: #FFBE0D;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 45px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  transition: background 200ms ease-in;
+  text-decoration: none;
+  margin-bottom: 80px;
+
+  &:hover {
+    background: rgba(255,190,13,0.5);
+    transition: background 200ms ease-in;
+  }
+}

@@ -1,19 +1,25 @@
+import { Link } from "react-router-dom"
+import { Container } from "../Container"
 import { Logotype } from "../Logotype"
 import { Mode } from "../Mode"
+import { Social } from "../Social/Social";
+
+import classes from './Header.module.scss';
 
 export const Header = () => {
   return (
     <header className="header">
-      <div className="container">
+      <Container>
         <div className="header__wrapper">
-          <div className="header__logo">
+          <Link className="header__logo" to="/">
             <Logotype />
-          </div>
-          <div className="header__mode">
+          </Link>
+          <div className={classes.flex}>
+            <Social />
             <Mode />
           </div>
         </div>
-      </div>
+      </Container>
     </header>
   )
 }
