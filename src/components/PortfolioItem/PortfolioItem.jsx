@@ -1,7 +1,6 @@
 import classes from './PortfolioItem.module.scss';
-import portfolioImg from './images/portfolio-img.png';
 
-export const PortfolioItem = ({img, title, subtitle, description, technologies}) => {
+export const PortfolioItem = ({img, title, subtitle, description, link, technologies}) => {
   return (
     <div className={classes.portfolioItem}>
       <div className={classes.portfolioItemImg}>
@@ -18,7 +17,7 @@ export const PortfolioItem = ({img, title, subtitle, description, technologies})
           }
         </ul>
       </div>
-      <a href="https://countries-api-sandy.vercel.app/" target="_blank" rel="noopener noreferrer">Go to website</a>
+      <a href={link} target="_blank" rel="noopener noreferrer">Go to website</a>
     </div>
   )
 }

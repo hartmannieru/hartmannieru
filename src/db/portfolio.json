@@ -4,35 +4,40 @@
     "img": "./images/portfolio-img.png",
     "title": "REST Countries API",
     "subtitle": "with color theme switcher",
-    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API.",
-    "technologies": ["HTML", "CSS", "JS", "React"]
+    "description": "Challenge by Frontend Mentor",
+    "link": "https://countries-api-sandy.vercel.app/",
+    "technologies": ["HTML", "SCSS", "REST API", "React"]
   }, {
     "id": "2",
     "img": "./images/portfolio-img-2.png",
-    "title": "REST Countries API 2 ",
-    "subtitle": "with color theme switcher 2",
-    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
-    "technologies": ["HTML"]
+    "title": "React Shop",
+    "subtitle": "fortnite API",
+    "description": "A frontend development of a online store was made",
+    "link": "https://react-shop-mu-six.vercel.app/",
+    "technologies": ["HTML", "SCSS", "REST API", "React"]
   }, {
     "id": "3",
     "img": "./images/portfolio-img-3.png",
-    "title": "REST Countries API 2 ",
-    "subtitle": "with color theme switcher 2",
-    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
-    "technologies": ["HTML"]
+    "title": "IP Address Tracker",
+    "subtitle": "Geolocation API",
+    "description": "Challenge by Frontend Mentor",
+    "link": "https://ip-address-tracker-blush-five.vercel.app/",
+    "technologies": ["HTML", "SCSS", "REST API", "React"]
   }, {
     "id": "4",
     "img": "./images/portfolio-img-4.png",
-    "title": "REST Countries API 2 ",
-    "subtitle": "with color theme switcher 2",
-    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
-    "technologies": ["HTML"]
+    "title": "ToDo List",
+    "subtitle": "CRUD Operation",
+    "description": "Developed a simple task list",
+    "link": "https://todo-list-delta-flax.vercel.app/",
+    "technologies": ["HTML", "SCSS", "REST API", "React", "GRUD"]
   }, {
     "id": "5",
     "img": "./images/portfolio-img-5.png",
-    "title": "REST Countries API 2 ",
-    "subtitle": "with color theme switcher 2",
-    "description": "If You're Wanting To Test Your JavaScript Skills This Is The Challenge For You. Use Whichever JS Framework You Prefer And Pull Data From The REST Countries API 2.",
-    "technologies": ["HTML"]
+    "title": "GitHub User Search",
+    "subtitle": "with color theme switcher",
+    "description": "Challenge by Frontend Mentor",
+    "link": "https://github-user-search-henna.vercel.app/",
+    "technologies": ["HTML", "SCSS", "JS"]
   }
 ]
