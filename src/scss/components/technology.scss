@@ -1,4 +1,14 @@
 .technology {
+  margin-bottom: calc(80px - 20px);
+
+  @media (max-width: 992px) {
+    margin-bottom: calc(60px - 20px);
+  }
+
+  @media (max-width: 992px) {
+    margin-bottom: 0px;
+  }
+
   &__title {
     margin-bottom: 20px;
   }

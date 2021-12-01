@@ -2,6 +2,9 @@ import { Link } from "react-router-dom"
 import { Container } from "../Container"
 import { Logotype } from "../Logotype"
 import { Mode } from "../Mode"
+import { Social } from "../Social/Social";
+
+import classes from './Header.module.scss';
 
 export const Header = () => {
   return (
@@ -11,7 +14,8 @@ export const Header = () => {
           <Link className="header__logo" to="/">
             <Logotype />
           </Link>
-          <div className="header__mode">
+          <div className={classes.flex}>
+            <Social />
             <Mode />
           </div>
         </div>

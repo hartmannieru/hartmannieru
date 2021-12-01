@@ -1,0 +1,19 @@
+.home {
+  position: relative;
+  padding-top: 105px;
+
+  @media (max-width: 576px) {
+    padding-top: 80px;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

@@ -21,7 +21,7 @@ h2,
   font-size: 48px;
   line-height: 65px;
 
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
     font-size: 36px;
     line-height: 49px;
   }
@@ -33,7 +33,7 @@ h3,
   font-size: 36px;
   line-height: 49px;
 
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
     font-size: 24px;
     line-height: 33px;
   }
@@ -44,7 +44,19 @@ p {
   font-size: 30px;
   line-height: 41px;
 
-  @media (max-width: 576px) {
+  @media (max-width: 768px) {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+p.small {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  @media (max-width: 768px) {
     font-size: 22px;
     line-height: 30px;
   }
