@@ -39,5 +39,13 @@
     "description": "Challenge by Frontend Mentor",
     "link": "https://github-user-search-henna.vercel.app/",
     "technologies": ["HTML", "SCSS", "JS"]
+  } , {
+    "id": "6",
+    "img": "./images/portfolio-img-6.png",
+    "title": "Calendar Ant Design",
+    "subtitle": "with ant design system",
+    "description": "Development of a calendar and authorization form",
+    "link": "https://github-user-search-henna.vercel.app/",
+    "technologies": ["HTML", "SCSS", "TypeScript", "AntDesign"]
   }
 ]

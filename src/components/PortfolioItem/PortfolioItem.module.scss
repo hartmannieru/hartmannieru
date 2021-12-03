@@ -61,7 +61,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
-    text-transform: capitalize;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -85,6 +84,7 @@
       text-transform: capitalize;
       color: var(--color-text);
       margin-right: 10px;
+      text-transform: uppercase;
 
       &:last-child {
         margin-right: 0;

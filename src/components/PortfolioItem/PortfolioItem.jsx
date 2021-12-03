@@ -12,7 +12,7 @@ export const PortfolioItem = ({img, title, subtitle, description, link, technolo
         <ul>
           {
             technologies.map((technology, index) => {
-              return <li key={index}>{technology}</li>
+              return <li key={index}>#{technology}</li>
             })
           }
         </ul>
