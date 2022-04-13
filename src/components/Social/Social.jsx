@@ -9,7 +9,7 @@ export const Social = () => {
 
   return (
     <div className={classes.social}>
-      <a className={classes.icon} href='https://github.com/lindenbergannie' target='_blank' rel='noopener noreferrer'>
+      <a className={classes.icon} href='https://github.com/hartmannieru' target='_blank' rel='noopener noreferrer'>
         <img src={mode === 'light' ? GitHubLight : GitHubDark} alt={'github-icon'} />
       </a>
     </div>
