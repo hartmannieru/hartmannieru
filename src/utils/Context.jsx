@@ -8,10 +8,8 @@ export const Context = (props) => {
   const value = {
     mode,
     setMode,
-    toggleMode
-  }
+    toggleMode,
+  };
 
-  return <CustomContext.Provider value={value}>
-    { props.children }
-  </CustomContext.Provider>
-}
+  return <CustomContext.Provider value={value}>{props.children}</CustomContext.Provider>;
+};

@@ -7,7 +7,8 @@
     "description": "Challenge by Frontend Mentor",
     "link": "https://countries-api-sandy.vercel.app/",
     "technologies": ["HTML", "SCSS", "REST API", "React"]
-  }, {
+  },
+  {
     "id": "2",
     "img": "./images/portfolio-img-2.png",
     "title": "React Shop",
@@ -15,7 +16,8 @@
     "description": "A frontend development of a online store was made",
     "link": "https://react-shop-mu-six.vercel.app/",
     "technologies": ["HTML", "SCSS", "REST API", "React"]
-  }, {
+  },
+  {
     "id": "3",
     "img": "./images/portfolio-img-3.png",
     "title": "IP Address Tracker",
@@ -23,7 +25,8 @@
     "description": "Challenge by Frontend Mentor",
     "link": "https://ip-address-tracker-blush-five.vercel.app/",
     "technologies": ["HTML", "SCSS", "REST API", "React"]
-  }, {
+  },
+  {
     "id": "4",
     "img": "./images/portfolio-img-4.png",
     "title": "ToDo List",
@@ -31,7 +34,8 @@
     "description": "Developed a simple task list",
     "link": "https://todo-list-delta-flax.vercel.app/",
     "technologies": ["HTML", "SCSS", "REST API", "React", "GRUD"]
-  }, {
+  },
+  {
     "id": "5",
     "img": "./images/portfolio-img-5.png",
     "title": "GitHub User Search",
@@ -39,7 +43,8 @@
     "description": "Challenge by Frontend Mentor",
     "link": "https://github-user-search-henna.vercel.app/",
     "technologies": ["HTML", "SCSS", "JS"]
-  } , {
+  },
+  {
     "id": "6",
     "img": "./images/portfolio-img-6.png",
     "title": "Calendar Ant Design",
